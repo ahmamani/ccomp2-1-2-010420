@@ -5,7 +5,9 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Bienvenidos a!\n";
+    std::cout << "Ciencia de la Computacion I\n";
+    std::cout << "Participa en todas las sesiones por favor!!!\n";
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
