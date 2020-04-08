@@ -1,13 +1,24 @@
-// HelloWorld.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
-
 #include <iostream>
 
+/*
+Función principal de mi programa
+Main
+*/
 int main()
 {
-    std::cout << "Bienvenidos a!\n";
-    std::cout << "Ciencia de la Computacion I\n";
-    std::cout << "Participa en todas las sesiones por favor!!!\n";
+    // Antes de usar una variable debo declararla
+    int x;
+    int y;
+    int z;
+    // Despues de declarar la variable, recien puedo inicializar
+    std::cout << "Ingrese el valor de la variable x : ";
+    std::cin >> x;
+    std::cout << "Ingrese el valor de la variable y : ";
+    std::cin >> y;
+
+    std::cout << "El resultado de la suma es : " << x+y << std::endl;
+    
+    return 0;
 }
 
 // Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
